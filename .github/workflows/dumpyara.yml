@@ -37,18 +37,18 @@ jobs:
          working-directory: phoenix_firmware_dumper
          run: |
               NAME_OF_THIS_REPO="dumper"
-              GITHUB_ORG_NAME="boxaltdump"
-              GITLAB_ORG_NAME="boxdumps"
-              GITLAB_USERNAME="boxaltdumps"
-              GITHUB_USERNAME="box-automation1"
+              GITHUB_ORG_NAME="bruhminusprotestingorg"
+              GITLAB_ORG_NAME="bruhminusprotestingorg"
+              GITLAB_USERNAME="bruhminusprotesting"
+              GITHUB_USERNAME="bruhminusprotesting"
               GIT_CONFIG_USERNAME="Box In A Box"
               GIT_CONFIG_EMAIL="evanferrao@gmail.com"
               GIT_GITHUB_TOKEN="${{ secrets.GIT_GITHUB_TOKEN }}"
               GITLAB_TOKEN="${{ secrets.GITLAB_TOKEN }}"
               TG_BOT_TOKEN="${{ secrets.TG_BOT_TOKEN }}"
-              TG_CHAT="@BoxDumps"
-              CHAT_REQUEST_ID="@BoxDumpRequests"  # Your Dump Request Group
-              GITLAB_HOSTNAME="gitgud.io" ## use 'gitlab.com' by default, or use your own gitlab instance, or any public one
+              TG_CHAT="@PrivateDumpRe"
+              CHAT_REQUEST_ID="@PrivateDumpHaiRe"  # Your Dump Request Group
+              GITLAB_HOSTNAME="gitlab.com" ## use 'gitlab.com' by default, or use your own gitlab instance, or any public one
               echo "$GITHUB_ORG_NAME" > .github_orgname
               echo "$GITLAB_HOSTNAME" > .gitlab_instance
               echo "$GIT_GITHUB_TOKEN" > .github_token
